@@ -1,0 +1,15 @@
+import math
+
+# Header Info
+print("Area of Shapes Using Maths in Python")
+print("17/08/2026 | Python Practical 2")
+print("#Author: Ishma Rinchen\n")
+
+# Get radius from the user
+radius = float(input("Enter the radius of the Circle: "))
+
+# Calculate the area using the formula: Pi * r^2
+area = math.pi * (radius ** 2)
+
+# Result
+print(f"The area of circle is: {area:.2f}")
