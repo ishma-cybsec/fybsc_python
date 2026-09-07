@@ -1,0 +1,80 @@
+"""Conditional statements in python: 
+It allows the progranm to execute different code depending on whether a 
+condition is True or False.
+
+Python provides the follwing commonly used conditional statements:"""
+
+age = 20
+if age >= 18:
+    print("Eligible to Vote")
+
+"Cybersecurity example"
+
+password = input ("Enter your password")
+password_length = 12
+
+if password_length >= 8:
+    print("Password length is acceptable")
+
+"------------------"
+
+marks = 65
+
+if marks >= 40:
+    print ("Pass")
+else:
+    print ("Fail")
+    
+"cybersecurity example"
+
+password = "Python123"
+
+if password == "python123":
+    print("login successful")
+else:
+    print("Invalid password")
+
+
+"------------------"
+
+
+marks = 75
+
+if marks >= 75:
+    print("Dsitinction")
+elif marks >= 60:
+    print ("First Class")
+elif marks >= 40:
+    print ("Pass")
+else:
+    print ("Fail")
+
+"CYbersecurity Example"
+
+risk = 8
+
+if risk >= 8:
+    print("High Security Risk")
+elif risk >= 5:
+    print("Medium Security Risk")
+else:
+    print("Low Security Risk")
+
+
+"-------------------"
+
+username = "admin"
+password = "1234"
+
+if username == "admin":
+    if password =="1234":
+        print("login Successful")
+
+"Cybersecurity Example"
+
+role = "admin"
+verified = True
+
+if role == "Admin":
+    if verified:
+        print("Acess Granted")
