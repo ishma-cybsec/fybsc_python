@@ -1,0 +1,48 @@
+"""
+Python Operator:
+What is an Operator? 
+Ans. An operator is a symbol or keyword that is used to perform a particular 
+operation on one or more values. The values on which an opeartor performs an
+operation are called operand.
+
+Types of Python opeartors:
+Arithematic operators, Comparison operators, Assignment operators,
+Bitwise opeartors, Logical opeartors, Membership opeartors,
+identity opeartors
+
+"""
+
+#==Arithematic operators==
+#---Standard math---
+
+price = 150
+tax = 10
+discount = 25
+
+total = price + tax - discount
+print(total) #value= 135
+
+items = 3
+final_bill = total * items
+print(final_bill) #value= 405
+
+#---Division math---
+
+#1.Normal Division
+print(30/6) #value= 5.0
+
+#2. Floor Division
+print(30//6) #value= 5
+
+#3. Modulus
+print(30%5) #value= 0(Remainder)
+
+#---Powers and Exponents---
+
+squared = 5 ** 2
+print(squared) #values= 25
+
+cubed = 5 ** 8
+print(cubed) #values= 390625
+
+
