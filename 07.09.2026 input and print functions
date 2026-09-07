@@ -1,0 +1,8 @@
+user = input ("Enter your profile")
+print ("Hello, user")
+
+administrator = input ("Enter your status")
+print ("hello, administrator")
+
+social = input ("Enter your command")
+print ("status, complete")
